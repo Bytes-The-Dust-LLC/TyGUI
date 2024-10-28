@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="backends">
+      <UniqueIdentifier>{00057006-ECD1-CA11-15EB-B8B9011700A0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Venders\ImGUI\imconfig.h" />
+    <ClInclude Include="Venders\ImGUI\imgui.h" />
+    <ClInclude Include="Venders\ImGUI\imgui_internal.h" />
+    <ClInclude Include="Venders\ImGUI\imstb_rectpack.h" />
+    <ClInclude Include="Venders\ImGUI\imstb_textedit.h" />
+    <ClInclude Include="Venders\ImGUI\imstb_truetype.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Venders\ImGUI\backends\imgui_impl_sdl2.cpp">
+      <Filter>backends</Filter>
+    </ClCompile>
+    <ClCompile Include="Venders\ImGUI\backends\imgui_impl_vulkan.cpp">
+      <Filter>backends</Filter>
+    </ClCompile>
+    <ClCompile Include="Venders\ImGUI\imgui.cpp" />
+    <ClCompile Include="Venders\ImGUI\imgui_demo.cpp" />
+    <ClCompile Include="Venders\ImGUI\imgui_draw.cpp" />
+    <ClCompile Include="Venders\ImGUI\imgui_tables.cpp" />
+    <ClCompile Include="Venders\ImGUI\imgui_widgets.cpp" />
+  </ItemGroup>
+</Project>
