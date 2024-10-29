@@ -1,6 +1,9 @@
 
 include "../BTDSTD3"
 
+IMGUI_INCLUDE = "Venders/ImGUI"
+IMGUI_BACKEND_INCLUDE = "Venders/ImGUI/backends"
+
 ---The ImGUI implementation for handling ImGUI widgets in BTD projects
 project "TyGUI"
 kind "StaticLib"

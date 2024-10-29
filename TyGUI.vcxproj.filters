@@ -1,29 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="backends">
-      <UniqueIdentifier>{00057006-ECD1-CA11-15EB-B8B9011700A0}</UniqueIdentifier>
+    <Filter Include="Venders">
+      <UniqueIdentifier>{DC2768D3-4807-E76E-511F-7245BD7D4DD0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Venders\ImGUI">
+      <UniqueIdentifier>{C60DBE7A-32CE-39B1-FB08-832E67887E8D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Venders\ImGUI\backends">
+      <UniqueIdentifier>{B0669E07-9C60-C759-85CD-5D6A71662DC6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="includes">
+      <UniqueIdentifier>{1CA10C65-086E-6770-3187-55181DB39CFE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="includes\TyGUI">
+      <UniqueIdentifier>{1D19763D-09E7-6943-F27A-DA69DEE745A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Venders\ImGUI\imconfig.h" />
-    <ClInclude Include="Venders\ImGUI\imgui.h" />
-    <ClInclude Include="Venders\ImGUI\imgui_internal.h" />
-    <ClInclude Include="Venders\ImGUI\imstb_rectpack.h" />
-    <ClInclude Include="Venders\ImGUI\imstb_textedit.h" />
-    <ClInclude Include="Venders\ImGUI\imstb_truetype.h" />
+    <ClInclude Include="Venders\ImGUI\imconfig.h">
+      <Filter>Venders\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Venders\ImGUI\imgui.h">
+      <Filter>Venders\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Venders\ImGUI\imgui_internal.h">
+      <Filter>Venders\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Venders\ImGUI\imstb_rectpack.h">
+      <Filter>Venders\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Venders\ImGUI\imstb_textedit.h">
+      <Filter>Venders\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Venders\ImGUI\imstb_truetype.h">
+      <Filter>Venders\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\TyGUI\Button.hpp">
+      <Filter>includes\TyGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\TyGUI\WidgetRenderer.hpp">
+      <Filter>includes\TyGUI</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Venders\ImGUI\backends\imgui_impl_sdl2.cpp">
-      <Filter>backends</Filter>
+      <Filter>Venders\ImGUI\backends</Filter>
     </ClCompile>
     <ClCompile Include="Venders\ImGUI\backends\imgui_impl_vulkan.cpp">
-      <Filter>backends</Filter>
+      <Filter>Venders\ImGUI\backends</Filter>
     </ClCompile>
-    <ClCompile Include="Venders\ImGUI\imgui.cpp" />
-    <ClCompile Include="Venders\ImGUI\imgui_demo.cpp" />
-    <ClCompile Include="Venders\ImGUI\imgui_draw.cpp" />
-    <ClCompile Include="Venders\ImGUI\imgui_tables.cpp" />
-    <ClCompile Include="Venders\ImGUI\imgui_widgets.cpp" />
+    <ClCompile Include="Venders\ImGUI\imgui.cpp">
+      <Filter>Venders\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Venders\ImGUI\imgui_demo.cpp">
+      <Filter>Venders\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Venders\ImGUI\imgui_draw.cpp">
+      <Filter>Venders\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Venders\ImGUI\imgui_tables.cpp">
+      <Filter>Venders\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Venders\ImGUI\imgui_widgets.cpp">
+      <Filter>Venders\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Source.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
